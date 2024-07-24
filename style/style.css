@@ -1,0 +1,221 @@
+@media print {
+    #search,
+    .button{
+        display: none;
+    }
+    body {-webkit-print-color-adjust: exact;}
+}
+
+.content{
+    width: 21cm;
+    min-height: 29.7cm;
+}
+
+.left{
+    width: 60%;
+    background-color: black;
+    color: #dadada;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.right{
+    background-color: #484848;
+    padding-top: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+.title .name{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    margin-left: 5px;
+}
+
+.title hr{
+    width: 70%;
+}
+
+.section{
+    padding-top: 50px;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section hr{
+    width: 20%;
+}
+
+.education hr{
+    width: 30%;
+}
+
+.experience hr{
+    width: 60%;
+}
+
+.education .container, .experience .container{
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+}
+
+.education .container .element, .experience .container .element{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.years{
+    font-size: 1rem;
+}
+
+.school, .workplace{
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.degree{
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.skills .container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.skill.cell{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill span{
+    font-size: .8rem;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.skill img{
+    width: 40px;
+    margin-right: auto;
+}
+
+.skill.row{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.rodo{
+    margin-top: auto;
+    font-size: .6rem;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.contact, .languages{
+    padding-top: 0;
+    color: #dadada;
+}
+
+.languages{
+    padding-top: 25px;
+}
+
+.contact hr, .languages hr{
+    width: 50%;
+    border: 1px solid black;
+}
+
+.languages hr{
+    width: 40%;
+}
+
+.contact .container, .languages .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 10px;
+    width: 100%;
+}
+
+.languages .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 15px;
+    width: 100%;
+}
+
+.contact .element img{
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.contact .element a{
+    text-decoration: none;
+    color: #467a81;
+    text-transform: none;
+}
+
+.languages .container .element{
+    padding-left: 20px;
+}
+
+.description{
+    font-size: .8rem;
+}
+
+@page{
+    size: A4;
+    margin: 0;
+    padding: 0;
+}
+
